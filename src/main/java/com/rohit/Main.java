@@ -40,6 +40,14 @@ public class Main {
                 .flatMap(Optional::stream)
                 .collect(toList());
 
+        List<String> allAlternativeCityName = personList.stream()
+                .map(person1 -> Optional.ofNullable(person1)
+                        .flatMap(person2 -> Optional.ofNullable(person2.getAddress()))
+                        .map(Address::getCity))
+                .filter(Optional::isPresent)
+                .map(Optional::get)
+                .collect(toList());
+
 
         boolean rohitInThisList = Optional.of(personList)
                 .stream()
@@ -112,6 +120,9 @@ public class Main {
         Optional<BigDecimal> firstNumber= Optional.of(new BigDecimal(10));
         Optional<BigDecimal> secondNumber=Optional.of(new BigDecimal(20));
 
+        if ( !firstNumber.isPresent() && !secondNumber.isPresent() ){
+            return Optional.empty();
+        }
         return Optional.of(firstNumber.orElse(BigDecimal.ZERO)
                 .add(secondNumber.orElse(BigDecimal.ZERO)));
     }

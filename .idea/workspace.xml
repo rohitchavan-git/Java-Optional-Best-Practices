@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa55109c-7b5a-4e44-b1c8-6c78de7514df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rohit/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rohit/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rohit/Person.java" afterDir="false" />
+    <list default="true" id="fa55109c-7b5a-4e44-b1c8-6c78de7514df" name="Changes" comment="optional playground">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rohit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rohit/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +60,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666882561717</updated>
-      <workItem from="1666882562975" duration="4108000" />
+      <workItem from="1666882562975" duration="4770000" />
     </task>
+    <task id="LOCAL-00001" summary="optional playground">
+      <created>1666887006070</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666887006070</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,5 +85,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="optional playground" />
+    <option name="LAST_COMMIT_MESSAGE" value="optional playground" />
   </component>
 </project>
